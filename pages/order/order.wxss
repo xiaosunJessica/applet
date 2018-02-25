@@ -2,30 +2,34 @@
 .nav-list {
   margin: 0 auto;
   background: #27ABFB;
+  text-align: center;
+  height: 180rpx;
 }
 .item {
   display: inline-block;
-  width: 60px;
-  height: 60px;
+  width: 200rpx;
+  height: 200rpx;
+  margin: 0 20rpx;
   border-radius: 50%;
 }
 .icon {
-  width: 40px;
-  height: 40px;
+  width: 120rpx;
+  height: 120rpx;
   display: block;
+  margin: 0 auto;
 }
 
 .train {
   background: url(http://www.moepan.net/uploads/2018022416231240602217.png) no-repeat;
-  background-position: -2px -48px;
+  background-position: -0rpx -110rpx;
 }
 .airplane {
   background: url(http://www.moepan.net/uploads/2018022416231240602217.png) no-repeat;
-  background-position: -52px -51px;
+  background-position: -110rpx -110rpx;
 }
 .bus {
   background: url(http://www.moepan.net/uploads/2018022416231240602217.png) no-repeat;
-  background-position: -100px -53px;
+  background-position: -220rpx -110rpx;
 }
 
 .active {
