@@ -1,0 +1,33 @@
+/* pages/order/order.wxss */
+.nav-list {
+  margin: 0 auto;
+  background: #27ABFB;
+}
+.item {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+.train {
+  background: url(http://www.moepan.net/uploads/2018022416231240602217.png) no-repeat;
+  background-position: -2px -48px;
+}
+.airplane {
+  background: url(http://www.moepan.net/uploads/2018022416231240602217.png) no-repeat;
+  background-position: -52px -51px;
+}
+.bus {
+  background: url(http://www.moepan.net/uploads/2018022416231240602217.png) no-repeat;
+  background-position: -100px -53px;
+}
+
+.active {
+  background-color: #FFFFFF;
+}

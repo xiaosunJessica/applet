@@ -1,0 +1,11 @@
+<!--pages/order/order.wxml-->
+<view class='view'>
+ <view class='nav-list'>
+    <block wx:for-items="{{navList}}" wx:key="{{item.id}}">
+      <view id="{{item.id}}" class="item {{item.open ? 'active' : ''}}" bindtap="itemToggle">
+        <text class="icon {{item.id}}"/>
+        <text>{{item.name}}</text>
+      </view>
+    </block>
+ </view>
+</view>
